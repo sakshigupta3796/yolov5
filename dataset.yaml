@@ -1,0 +1,9 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+#path: /kaggle/input/sku110k-annotations/SKU110K_fixed/images  # dataset root dir
+train: /content/data/SKU110K_fixed/images/train/  # train images (relative to 'path')  8219 images
+val: /content/data/SKU110K_fixed/images/val/  # val images (relative to 'path')  588 images
+test: /content/data/SKU110K_fixed/images/test/  # test images (optional)  2936 images
+
+# Classes
+nc: 1  # number of classes
+names: ['o']  # class names
